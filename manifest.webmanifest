@@ -1,0 +1,24 @@
+{
+  "name": "fixfirst — repair it before you replace it",
+  "short_name": "fixfirst",
+  "description": "A workshop guide to fixing common household items, with real steps, tools, safety notes, and honest advice on when to replace. Private, offline, free.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#F3ECDD",
+  "theme_color": "#2C4A63",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
