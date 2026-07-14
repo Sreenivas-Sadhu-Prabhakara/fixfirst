@@ -238,10 +238,8 @@
     back.appendChild(svg('<path d="M15 5l-7 7 7 7"/>', null, "0 0 24 24"));
     back.appendChild(document.createTextNode("All repairs"));
     back.addEventListener("click", function () {
-      history.replaceState(null, "", "#" + (state.filter !== "all" ? "browse" : "browse"));
       render();
       window.scrollTo({ top: 0, behavior: "auto" });
-      elSearch.focus();
     });
     elDetail.appendChild(back);
 
